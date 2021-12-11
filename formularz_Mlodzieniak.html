@@ -1,12 +1,98 @@
-﻿<!DOCTYPE html>
- <html lang="pl-PL">
- <html>
-  <head>
-   <meta charset="utf-8">
-   <title> strona formularza </title>
-  </head>
-<body>
-tutaj będzie formularz
-<A HREF="index.html">wróć</A>
-</body>
-</html>
+<!DOCTYPE html>
+	<html lang="pl-PL">
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<meta author="Daria Młodzieniak">
+			<title> Wykonała Młodzieniak </title>
+		</head>
+
+		<body>
+<table border "1" bordercolor="white" align="center">
+<tr>
+<td colspan="5" align="center"><h1>OPINIA O FUNKCJONOWANIU SZKOŁY</h1> </td> <br>
+</tr>
+<tr>
+<td colspan="4">EMAIL</td><br><td>JĘZYK</td>
+</tr>
+<tr>
+<td colspan="4"><input name="Email"></td><br><td rowspan="2"><select name="język" multiple size="4">
+									<option selected>polski</option>
+									<option>angielski</option>
+									<option>francuski</option>
+									<option>niemiecki</option>
+									<option>hiszpański</option>
+									</select></td>
+</tr>
+<tr>
+<td colspan="4">HASŁO</td><br>
+</tr>
+<tr>
+<td colspan="4"><input name="Haslo"></td><td>PEŁNOLETNOŚĆ</td>
+</tr>
+<tr>
+<td>IMIĘ</td><td>NAZWISKO</td><td colspan="2">PODPIS</td><br><td rowspan="2"><select name="pełnoletność" multiple size="4">
+												<option selected>Tak</option>
+												<option>Nie</option>
+												<option>Wolę nie podawać</option>
+												</select></td>
+</tr>
+<tr>
+<td><input name="Imie"></td><td><input name="Nazwisko"></td><td colspan="2"><input name="Podpis"></td><br>
+</tr>
+<tr>
+<td colspan="5" bgcolor="gray">TWOJA ŚREDNIA OCEN</td>
+</tr>
+<tr>
+<td><input type="radio" name="Średnia" value="6,0 - 5,0">6,0 - 5,0</td>
+		<td><input type="radio" name="Średnia" value="4,9 - 4,0">4,9 - 4,0</td>
+		<td><input type="radio" name="Średnia" value="3,9 - 3,0">3,9 - 3,0&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+		<td><input type="radio" name="Średnia" value="2,9 - 2,0">2,9 - 2,0&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+		<td><input type="radio" name="Średnia" value="mniej niż 2,0">mniej niż 2,0</td>		
+</tr>
+<tr>
+<td colspan="5" bgcolor="gray">CZY JESTEŚ ZADOWOLONY Z FUNKCJONOWANIA SZKOŁY?</td>
+</tr>
+<tr>
+<td colspan="5"><input type="radio" name="Zadowolenie" value="Tak">Tak</td>
+</tr>
+<tr>
+<td colspan="5"><input type="radio" name="Zadowolenie" value="Nie">Nie</td>
+</tr>
+<tr>
+<td colspan="5"><input type="radio" name="Zadowolenie" value="Nie wiem">Nie wiem</td>
+</tr>
+<tr>
+<td colspan="5" bgcolor="gray">JAKIE SĄ NAJCZĘSTSZE POWODY TWOICH NIEOBECNOŚCI?</td>
+</tr>
+<tr>
+<td colspan="5" align="center"><input type="checkbox" name="Powód" value="Stres">Szkoła mnie stresuje&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="checkbox" name="Powód" value="Lenistwo">Nie chce mi się&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="checkbox" name="Powód" value="Strach">Boję się innych&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="checkbox" name="Powód" value="Brak zadania">Nie mam zadania&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+</tr>
+<tr>
+<td colspan="5" bgcolor="gray">CZYM KIEROWAŁEŚ SIĘ PRZY WYBORZE SZKOŁY?</td>
+</tr>
+<tr>
+<td colspan="3"><input type="checkbox" name="Wybór" value="Odległość">Odległość</td><td colspan="2" bgcolor="gray">UWAGI:</td>
+</tr>
+<tr>
+<td colspan="3"><input type="checkbox" name="Wybór" value="Znajomi">Znajomi</td><td colspan="2" rowspan="4"><textarea name="Uwagi" cols="40" rows="8">...</textarea></td>
+</tr>
+<tr>
+<td colspan="3"><input type="checkbox" name="Wybór" value="Poziom nauczania">Poziom nauczania</td>
+</tr>
+<tr>
+<td colspan="3"><input type="checkbox" name="Wybór" value="Nacisk rodziców">Nacisk rodziców</td>
+</tr>
+<tr>
+<td colspan="3"><input type="checkbox" name="Wybór" value="Próg punktowy">Próg punktowy</td>
+</tr>
+<tr>
+<td colspan="3"></td><td align="center"><input type="reset" value="Wyczyść wszystko"></td><td align="center"><input type="submit" value="Wyślij"></td>
+</tr>
+</table>
+<center><H2><a HREF="Index.html">Wróć do Index.html</a></H2></center><br>
+		</body>
+	</html>
